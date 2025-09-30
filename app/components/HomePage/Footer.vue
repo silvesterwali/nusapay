@@ -4,10 +4,7 @@
             <div
                 className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
                 <div className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                        <div
-                            className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-background" />
-                    </div>
+                    <NuxtImg src="/logo.png" class="h-8 w-8 object-center object-contain" />
                     <span className="text-lg font-bold font-space-grotesk">NusaPay</span>
                 </div>
 

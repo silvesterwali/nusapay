@@ -14,7 +14,7 @@
                         </p>
                     </div>
 
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
                         <template v-for="item in items" :key="item.label">
                             <UCard
                                 class="bg-card/50 border-border hover:border-primary/50 hover:bg-primary/5 transition-all cursor-pointer group"
@@ -44,10 +44,9 @@
 <script setup lang="ts">
 
 const items = [
-    { icon: 'i-lucide-twitter', label: "Twitter", href: "#" },
-    { icon: 'i-lucide-send', label: "Telegram", href: "#" },
-    { icon: 'i-lucide-github', label: "GitHub", href: "#" },
-    { icon: 'i-lucide-file-text', label: "Docs", href: "#" },
+    { icon: 'i-lucide-twitter', label: "Twitter", href: "https://x.com/nusa_pay" },
+    { icon: 'i-lucide-github', label: "GitHub", href: "https://github.com/NusaCorporation" },
+    { icon: 'i-lucide-file-text', label: "Docs", href: "https://nusapay-1.gitbook.io/nusapay-docs" },
 ]
 
 </script>

@@ -4,16 +4,9 @@
             <div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
                 <div class="space-y-8">
                     <div class="flex items-center space-x-3">
-                        <div class="relative">
-                            <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                                <div
-                                    class="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[8px] border-b-default" />
-                            </div>
-                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-primary rounded-full animate-pulse" />
-                        </div>
+                        <NuxtImg src="/logo.png" class="h-11 w-11 object-center object-contain" />
                         <span class="text-2xl font-bold font-space-grotesk">NusaPay</span>
                     </div>
-
 
                     <div class="space-y-4">
                         <h1 class="text-4xl lg:text-6xl font-bold font-space-grotesk text-balance leading-tight">
@@ -24,7 +17,8 @@
 
 
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <UButton size="lg" class="glow-green font-medium">
+                        <UButton size="lg" class="glow-green font-medium"
+                            href="https://nusapay-1.gitbook.io/nusapay-docs" target="_blank" rel="noopener noreferrer">
                             Get Whitepaper
                         </UButton>
                         <UButton size="lg" variant="outline">
