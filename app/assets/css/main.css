@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-space-grotesk: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-default outline-default;
+  }
+  body {
+    @apply bg-black text-default;
+  }
+
+  /* Added subtle grid texture background */
+  .grid-texture {
+    background-image: linear-gradient(rgba(0, 255, 157, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 157, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  /* Added glow effect for buttons */
+  .glow-green {
+    box-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
+  }
+
+  .glow-green:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 157, 0.5);
+  }
+}
