@@ -4,7 +4,7 @@
             <div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
                 <div class="space-y-8">
                     <div class="flex items-center space-x-3">
-                        <NuxtImg src="/logo.png" class="h-11 w-11 object-center object-contain" />
+                        <UAvatar src="/logo.png" size="3xl" />
                         <span class="text-2xl font-bold font-space-grotesk">NusaPay</span>
                     </div>
 
@@ -21,7 +21,8 @@
                             href="https://nusapay-1.gitbook.io/nusapay-docs" target="_blank" rel="noopener noreferrer">
                             Get Whitepaper
                         </UButton>
-                        <UButton size="lg" variant="outline">
+                        <UButton size="lg" variant="outline" href="https://t.me/fajrlnrasyid" target="_blank"
+                            rel="noopener noreferrer">
                             Join Closed Beta
                         </UButton>
                     </div>

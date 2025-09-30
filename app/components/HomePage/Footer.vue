@@ -4,7 +4,7 @@
             <div
                 className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
                 <div className="flex items-center space-x-3">
-                    <NuxtImg src="/logo.png" class="h-8 w-8 object-center object-contain" />
+                    <UAvatar src="/logo.png" size="2xl" />
                     <span className="text-lg font-bold font-space-grotesk">NusaPay</span>
                 </div>
 
